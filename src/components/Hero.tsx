@@ -49,7 +49,7 @@ const Hero = () => {
 
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-            Social Media Manager | AI Content Strategist | Creator Economy Enthusiast
+            Social Media Manager | AI Content Strategist | Digital Marketing Expert
           </p>
 
           {/* Stats */}

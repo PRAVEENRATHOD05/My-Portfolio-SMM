@@ -27,7 +27,7 @@ const Footer = () => {
             <div>
               <h3 className="text-2xl font-bold text-gradient mb-4">Rathod Praveen Kumar</h3>
               <p className="text-muted-foreground mb-4">
-                Social Media Manager & AI Content Strategist
+                Social Media Manager, AI Content Strategist & Digital Marketing Expert
               </p>
               <p className="text-sm text-muted-foreground">
                 IIT Dhanbad • Founder of @ai.forfuture • 160K+ Community
