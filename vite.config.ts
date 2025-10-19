@@ -15,6 +15,12 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // 👇 Very important for Vercel deployment
-  base: "./",
+  // Remove relative base path for Vercel
+  base: '/',
+  build: {
+    // Ensure sourcemaps for better debugging
+    sourcemap: true,
+    // Ensure clean builds
+    emptyOutDir: true,
+  }
 }));
